@@ -1,0 +1,200 @@
+.body {
+    background-color: rgb(253, 204, 143);
+}
+.body2 {
+    background-color: rgb(253, 204, 143);
+}
+.log-in {
+    font-size: 60px;
+}
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    position: relative;
+}
+.cton {
+    width: 35%;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 15px;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    transition: padding-left 0.15s , padding-right 0.15s;
+}
+.cton2 {
+    width: 35%;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 15px;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    transition: padding-left 0.15s , padding-right 0.15s;
+    position: relative;
+}
+.cton-1 {
+    margin: 0;
+    position: absolute;
+    top: 32%;
+    background-color: rgba(255, 255, 255, 0.486);
+    left: 34%;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+.cton-2 {
+    margin: 0;
+    position: absolute;
+    bottom: 52%;
+    background-color: rgba(255, 255, 255, 0.514);
+    left: 34%;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+.cton:hover, .cton:focus {
+    padding-right: 10px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.cton2:hover, .cton2:focus {
+    padding-right: 10px;
+    padding-left: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.all2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 6px;
+    font-size: 14px;
+    align-items: center;
+    font-family: arial;
+    margin-right: 16%;
+    width: 20%;
+
+}
+.logger {
+    width: 36%;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background-color: rgb(91, 91, 238);
+    color: white;
+    cursor: pointer;
+    transition: scale 0.15s , opacity 0.10s;
+}
+
+.logger:hover {
+    scale: 1.1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.logger:active {
+    opacity: 0.5;
+}
+.or {
+    margin: 0px;
+}
+.google {
+    width: 36%;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.15s , color 0.15s , transform 0.15s;
+}
+.google:hover {
+    transform: translateY(-7px);
+    background-color: rgb(91, 91, 238);
+    color: white;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);    
+}
+.google:active {
+    transform: translateY(0px);
+}
+
+.all3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+    row-gap: 5px;
+    width: 100%;
+    position: relative;
+    margin-top: 120px;
+}
+.frfr {
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: bold;
+
+
+}
+.woo {
+    margin-bottom: 15px;
+}
+.ass {
+    margin: 0;
+    margin-bottom: 4px;
+    margin-left: 10px;
+    color: gray;
+}
+.new{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    border:1px solid gray;
+    transition: padding-left 0.15s , padding-right 0.15s;
+    cursor: pointer;
+    outline: none;
+    padding-left: 15px;
+}
+.confirm {
+    width: 310px;
+    height: 50px;
+    border-radius: 30px;
+    border:1px solid gray;
+    background-color: #5d5de6;
+    color: white;
+    transition: scale 0.15s, box-shadow 0.15s, opacity 0.15s;
+}
+.confirm:hover {
+    scale: 1.1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+.confirm:active {
+    scale: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    opacity: 0.5;
+}
+.new:focus{
+    padding-right: 15px;
+    padding-left: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+.back {
+    margin-top: 10px;
+}
+.forgot {
+    text-decoration: none;
+}
+.back {
+    text-decoration: none;
+}
+.azozi {
+    font-size: 50px;
+}
